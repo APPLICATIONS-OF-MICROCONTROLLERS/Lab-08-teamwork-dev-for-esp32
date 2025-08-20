@@ -1,5 +1,0 @@
-dependencies:
-  led:
-    git: https://github.com/YOUR_USERNAME/Lab-08-teamwork-dev-for-esp32.git
-    path: led
-    version: "*"
