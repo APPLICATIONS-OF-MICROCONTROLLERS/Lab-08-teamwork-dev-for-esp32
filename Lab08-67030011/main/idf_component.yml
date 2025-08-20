@@ -5,5 +5,8 @@ dependencies:
     version: "*"
   display:
     git: https://github.com/Job-67/Lab-08-teamwork-dev-for-esp32.git
-    path: display
+    path: Display
+    version: "*"
+  led:
+    git: https://github.com/016Rusneeda/LED.git
     version: "*"
