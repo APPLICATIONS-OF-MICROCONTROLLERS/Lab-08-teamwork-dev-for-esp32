@@ -1,3 +1,5 @@
 dependencies:
   sensor:
-    path: ../../sensor
+    git: https://github.com/Kritternai/Lab-08-teamwork-dev-for-esp32.git
+    path: sensor
+    version: "*"
