@@ -17,8 +17,8 @@ Lab08-67030011/
 ## Components
 
 This project uses the following components:
-- **sensor**: ADC sensor reading component (GPIO36)
-- **display**: Display component (to be added by team member 2)
+- **sensor**: ADC sensor reading component (GPIO36) - from https://github.com/Kritternai/Lab-08-teamwork-dev-for-esp32.git
+- **display**: Display component - from https://github.com/Job-67/Lab-08-teamwork-dev-for-esp32.git
 - **led**: LED control component (to be added by team member 3)
 
 ## Building and Running
@@ -55,13 +55,19 @@ Connect the LM35 temperature sensor:
 ## Expected Output
 
 The application will:
-1. Initialize the sensor component
+1. Initialize the sensor and display components
 2. Start reading sensor data every second
-3. Display ADC value, voltage, and temperature
-4. Wait for display and LED components to be integrated
+3. Display sensor data (ADC value, voltage, temperature) on the screen
+4. Update display in real-time with sensor readings
+5. Wait for LED component to be integrated
 
 ## Team Members
 
 - **67030011**: Sensor component
-- **Team Member 2**: Display component
+- **Job-67**: Display component
 - **Team Member 3**: LED component
+
+## Component Sources
+
+- **Sensor Component**: https://github.com/Kritternai/Lab-08-teamwork-dev-for-esp32.git
+- **Display Component**: https://github.com/Job-67/Lab-08-teamwork-dev-for-esp32.git

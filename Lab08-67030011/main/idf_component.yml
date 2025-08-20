@@ -3,3 +3,7 @@ dependencies:
     git: https://github.com/Kritternai/Lab-08-teamwork-dev-for-esp32.git
     path: sensor
     version: "*"
+  display:
+    git: https://github.com/Job-67/Lab-08-teamwork-dev-for-esp32.git
+    path: display
+    version: "*"
